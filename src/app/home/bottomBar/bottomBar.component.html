@@ -1,0 +1,21 @@
+<GridLayout height="60" verticalAlignment="bottom">
+	<GridLayout columns="*, *, *, *, *" height="60" backgroundColor="#0D0D12">
+		<GridLayout #tabHighlight col="0" backgroundColor="#F8A200"></GridLayout>
+		<GridLayout col="0" (tap)="selectTab(0)">
+			<Image #image1 src="~/assets/ic_local_cafe.png" height="23" width="23"></Image>
+		</GridLayout>
+		<GridLayout col="1" (tap)="selectTab(1)">
+			<Image #image2 src="~/assets/ic_fastfood.png" height="25" width="25"></Image>
+		</GridLayout>
+		<GridLayout col="2" (tap)="selectTab(2)">
+			<Image #image3 src="~/assets/ic_local_pizza.png" height="25" width="25"></Image>
+		</GridLayout>
+		<GridLayout col="3" (tap)="selectTab(3)">
+			<Image #image4 src="~/assets/ic_local_bar.png" height="25" width="25"></Image>
+		</GridLayout>
+		<GridLayout col="4" (tap)="selectTab(4)">
+			<Image #image5 src="~/assets/ic_tag_faces.png" height="25" width="25"></Image>
+		</GridLayout>
+	</GridLayout>
+
+</GridLayout>
